@@ -64,7 +64,7 @@ laca@localhost:~/go/go-rebuild/test/hello$ ./hello
 *~*      Please rebuild me!     *~*
 *~*                             *~*
 *~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*
-Modified source: /home/laca/work/go-rebuild/check.go
+Modified source: /home/laca/go/go-rebuild/check.go
 
 laca@localhost:~/go/go-rebuild/test/hello$ go build -tags prod
 laca@localhost:~/go/go-rebuild/test/hello$ ./hello 
