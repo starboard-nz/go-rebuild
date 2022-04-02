@@ -8,9 +8,12 @@ go-rebuild checks if the sources are newer than the executable when the
 executable starts saving you having to slap your forehead. At least for this
 particular reason...
 
-To use it, simply import the package:
+To use it, simply import the package (typically in the source file that
+implements `func main()`):
 
 ```
+package main
+
 import (
 	_ "github.com/starboard-nz/go-rebuild/force"
 )
@@ -23,6 +26,8 @@ to be rebuilt.
 If you prefer to be given a warning only, you can import `warning` instead:
 
 ```
+package main
+
 import (
 	_ "github.com/starboard-nz/go-rebuild/warning"
 )
