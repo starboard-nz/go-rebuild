@@ -1,4 +1,5 @@
 //go:build !prod
+// +build !prod
 
 package rebuild
 
